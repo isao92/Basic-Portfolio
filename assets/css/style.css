@@ -1,0 +1,154 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+
+/*
+Page Title
+*/
+.blue{
+    background-color: #4aaaa5;
+    font-size: 2em;
+    height: 100px;
+    margin-left: 10%;
+    margin-bottom: 0px;
+    text-align: auto;
+    padding: 30px;
+    width: 40%;
+    color: white;
+    float: left;
+}
+
+
+/*
+About, Portfolio and Contact move to right
+*/
+#About, #Portfolio, #Contact {
+    float: right;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    width: 8%;
+}
+
+/*
+Contact Portfolio and About at the right align
+*/
+#toRight{
+    text-align: center;
+    margin-right: 10%;
+}
+
+/*
+Banner
+*/
+header{
+    color: darkgray;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid gray;
+}
+
+/*
+Clean
+*/
+.services:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*
+About Me Title
+*/
+#backg h2 {
+    
+    color: #4aaaa5;
+    padding-bottom: 10px;
+    width: 80%;
+    position: absolute;
+    top: 15px;
+    text-align: left;
+    border-bottom: 2px solid lightgray;
+}
+
+
+/*
+Profile Picture
+*/
+#backg p > img {
+    float: left;
+    margin-right: 15px;
+    width: 100px;
+    height: 95px;
+}
+
+
+/*
+Body
+*/
+#backg p{
+    font-size: 1em;
+    color: gray;
+    position: absolute;
+    top: 70px;
+    left: 12%;
+    right: 12%;
+}
+
+/*
+Background body Box
+*/
+#backg2
+{
+    /*
+    "position: fixed" is relative to the browser window
+    */
+    position: fixed;
+    background-color: white;
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    right: 10%;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 7px;
+    margin-bottom: 0px;
+    padding: 100px;
+    top: 108px;
+}
+
+
+/*
+Background Image
+*/
+#backg > img {
+    margin-top: 0px;
+    width: 100%;
+
+}
+
+.littleRectangle {
+    border-bottom: 8px solid #4aaaa5;
+}
+
+
+#footer {
+    font-size: .8em;
+    height: 40px;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+#footer > p{
+    padding-top: 10px;
+    text-align: center;
+}
