@@ -47,11 +47,16 @@ Contact Portfolio and About at the right align
 Banner
 */
 header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
     color: darkgray;
     text-align: center;
     height: 100px;
     margin-bottom: 0px;
     border-bottom: 2px solid gray;
+    z-index: 3;
 }
 
 /*
@@ -109,7 +114,7 @@ Background body Box
     /*
     "position: fixed" is relative to the browser window
     */
-    position: fixed;
+    position: absolute;
     background-color: white;
     width: 80%;
     height: 60%;
@@ -121,6 +126,7 @@ Background body Box
     margin-bottom: 0px;
     padding: 100px;
     top: 108px;
+    z-index: 1;
 }
 
 
@@ -128,8 +134,11 @@ Background body Box
 Background Image
 */
 #backg > img {
+    position: fixed;
     margin-top: 0px;
     width: 100%;
+    height: 100%;
+    z-index: 0;
 
 }
 
@@ -139,6 +148,9 @@ Background Image
 
 
 #footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     font-size: .8em;
     height: 40px;
     color: white;
@@ -146,6 +158,7 @@ Background Image
     text-align: center;
     float: left;
     width: 100%;
+    z-index: 4;
 }
 
 #footer > p{
